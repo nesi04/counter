@@ -1,0 +1,21 @@
+#label{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+
+}
+.container{
+  text-align: center;
+}
+.inc,.dec,.res{
+    color: white;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(178, 140, 255);
+    transition: 0.25s;
+}
+.inc:hover,.dec:hover,.res:hover{
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(136, 105, 196);
+}
